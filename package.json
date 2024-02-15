@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "tsx watch src/server.ts"
+    "dev": "tsx watch --env-file=.env src/server.ts ",
+    "knex": "tsx ./node_modules/knex/bin/cli.js --knexfile ./knexfile.ts"
   },
   "keywords": [],
   "author": "",
